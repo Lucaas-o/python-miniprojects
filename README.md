@@ -18,11 +18,11 @@ A collection of small Python projects for learning and practice.
 ## 🚀 How to Run the Scripts
 
 Clone the repository:
-```sh
-git clone https://github.com/YOUR-USERNAME/python-miniprojects.git
-cd python-miniprojects
-python Low\ Difficulty/countdown.py
-```
+   ```sh
+   git clone https://github.com/YOUR-USERNAME/python-miniprojects.git
+   cd python-miniprojects
+   python LowDifficulty/countdown.py
+   ```
 
 ## 📜 License  
 
