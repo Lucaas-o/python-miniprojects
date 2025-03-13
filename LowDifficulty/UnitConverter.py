@@ -15,9 +15,9 @@ def convert_weight(value, from_unit, to_unit):
         return None
 
 def convert_temperature(value, from_unit, to_unit):
-    if from_unit == "Celsius" and to_unit == "Fahrenheit":
+    if from_unit == "celsius" and to_unit == "fahrenheit":
         return (value * 9/5) + 32
-    elif from_unit == "Fahrenheit" and to_unit == "Celsius":
+    elif from_unit == "fahrenheit" and to_unit == "celsius":
         return (value - 32) * 5/9
     else:
         return None
