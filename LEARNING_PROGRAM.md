@@ -12,6 +12,10 @@ This learning program is tailored for solo development, focusing on deeply learn
   - "Python for Beginners - Learn Python Programming in 100 Steps" by in28Minutes (Udemy)  
     - Duration: ~6 hours  
     - Link: Available on Udemy (search for the course; often $10-$15)  
+    - Schedule: March 13 - March 31, 2025 (2-3 hours/week)  
+  - **Free Alternative**: "Python Tutorial for Beginners" by Programming with Mosh (YouTube)  
+    - Duration: ~6 hours  
+    - Link: [Programming with Mosh Python](https://www.youtube.com/watch?v=_uQrJ0TkZlc)  
     - Schedule: March 13 - March 31, 2025 (2-3 hours/week)
 - **Interactive Tutorial**:  
   - "Learn Python" on Codecademy  
@@ -52,11 +56,15 @@ This learning program is tailored for solo development, focusing on deeply learn
   - "Working with Databases in Python" on DataCamp  
     - Duration: ~4 hours  
     - Link: [DataCamp SQLite Course](https://www.datacamp.com/courses/working-with-databases-in-python) (Free trial available)  
-    - Schedule: January 1 - January 15, 2026 (4 hours total)
+    - Schedule: January 1 - January 15, 2026 (4 hours total)  
+  - **Free Alternative**: "Python SQLite Tutorial" by Corey Schafer (YouTube)  
+    - Duration: ~1 hour  
+    - Link: [Corey Schafer SQLite](https://www.youtube.com/watch?v=pd-1e9AB7kA)  
+    - Schedule: January 1 - January 7, 2026 (1 hour total, supplement with practice)
 - **Book**:  
   - "Automate the Boring Stuff with Python" by Al Sweigart  
     - Chapters: 7-9 (Pattern Matching, Web Scraping), 14 (Working with APIs)  
-    - Link: [automatetheboringstuff.com](https://automatetheboringstuff.com)  
+    - Link: Free online at [automatetheboringstuff.com](https://automatetheboringstuff.com)  
     - Schedule: January 16 - February 28, 2026 (5 hours/week)
 - **Documentation**:  
   - Tkinter Docs: [Tkinter Documentation](https://docs.python.org/3/library/tkinter.html)  
@@ -92,6 +100,9 @@ This learning program is tailored for solo development, focusing on deeply learn
   - "Flask Web Development" by Miguel Grinberg  
     - Chapters: 1-5 (Flask basics, templates, databases)  
     - Link: Available on Amazon or O’Reilly  
+    - Schedule: February 1 - March 31, 2027 (5 hours/week)  
+  - **Free Alternative**: "Flask by Example" by Real Python (Free online articles)  
+    - Link: [Real Python Flask](https://realpython.com/flask-by-example/)  
     - Schedule: February 1 - March 31, 2027 (5 hours/week)
 - **Documentation**:  
   - Flask Docs: [Flask Documentation](https://flask.palletsprojects.com/en/2.3.x/)  
@@ -112,6 +123,10 @@ This learning program is tailored for solo development, focusing on deeply learn
     - Duration: ~25 hours  
     - Link: Available on Udemy (search for the course)  
     - Schedule: March 1 - April 30, 2028 (5 hours/week)  
+  - **Free Alternative**: "Machine Learning with Python" by freeCodeCamp (YouTube)  
+    - Duration: ~10 hours  
+    - Link: [freeCodeCamp ML](https://www.youtube.com/watch?v=7eh4d6sabA0)  
+    - Schedule: March 1 - March 31, 2028 (5 hours/week, supplement with practice)  
   - "Real-Time Web Apps with WebSockets in Python" by Corey Schafer (YouTube)  
     - Duration: ~1 hour  
     - Link: [Corey Schafer WebSockets](https://www.youtube.com/watch?v=Fk7a3-wDga4)  
@@ -120,11 +135,18 @@ This learning program is tailored for solo development, focusing on deeply learn
   - "Natural Language Processing with Python" on Coursera  
     - Duration: ~20 hours  
     - Link: [Coursera NLP](https://www.coursera.org/learn/natural-language-processing-python)  
-    - Schedule: May 8 - June 15, 2028 (5 hours/week)
+    - Schedule: May 8 - June 15, 2028 (5 hours/week)  
+  - **Free Alternative**: "NLP with Python" by Sentdex (YouTube)  
+    - Duration: ~10 hours  
+    - Link: [Sentdex NLP](https://www.youtube.com/watch?v=6zm9NC9uRkk&list=PLQVvvaa0QuDf2JswnfiGkciwwcJ8pMy-3)  
+    - Schedule: May 8 - May 31, 2028 (5 hours/week)
 - **Book**:  
   - "Deep Learning with Python" by François Chollet  
     - Chapters: 1-4 (Neural Networks, TensorFlow Basics)  
     - Link: Available on Amazon or O’Reilly  
+    - Schedule: June 16 - July 31, 2028 (5 hours/week)  
+  - **Free Alternative**: "Neural Networks and Deep Learning" by Michael Nielsen (Free online)  
+    - Link: [Neural Networks Book](http://neuralnetworksanddeeplearning.com/)  
     - Schedule: June 16 - July 31, 2028 (5 hours/week)
 - **Documentation**:  
   - TensorFlow Docs: [TensorFlow](https://www.tensorflow.org/tutorials)  
@@ -151,6 +173,9 @@ This learning program is tailored for solo development, focusing on deeply learn
   - "Python Cookbook" by David Beazley and Brian K. Jones  
     - Chapters: 1-3 (Data Structures, File I/O, Concurrency)  
     - Link: Available on Amazon or O’Reilly  
+    - Schedule: March 16 - April 30, 2027 (5 hours/week)  
+  - **Free Alternative**: "Effective Python" by Brett Slatkin (Free sample chapters online)  
+    - Link: [Effective Python Sample](https://effectivepython.com/)  
     - Schedule: March 16 - April 30, 2027 (5 hours/week)
 - **Documentation**:  
   - Python Modules: [Python Module Index](https://docs.python.org/3/py-modindex.html)  
