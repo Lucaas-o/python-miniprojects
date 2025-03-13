@@ -3,18 +3,28 @@
 ## 🟢 Beginner (Basic Features, Console-Based)  
 - [x] Number Guessing Game 🎲  
 - [x] Rock-Paper-Scissors Game ✂️  
-- [ ] Simple Calculator 🧮  
 - [x] Password Generator 🔐  
-- [ ] Unit Converter 📏  
+- [x] Unit Converter 📏  
 - [x] Basic CLI To-Do List 📝  
+- [x] Expense Tracker 💰  
+- [ ] Simple Calculator 🧮  
+- [ ] Random Task Picker 🎲  
+- [ ] Hangman Game 🎮  
+- [ ] Tic-Tac-Toe Game ❌⭕  
+- [ ] Basic Quiz Game ❓  
+- [ ] Countdown Timer ⏲️  
 - [ ] Persistent To-Do List (Save/Load to `.txt`) 💾  
 - [ ] Categorized To-Do List (Work, Personal, etc.) 🗂️  
 - [ ] Deadline-Based To-Do List 📅  
-- [x] Expense Tracker 💰  
 - [ ] Command-Based To-Do List (`/add`, `/remove`, `/list`) ⌨️  
-- [ ] Random Task Picker 🎲  
+- [ ] Simple Text-Based Adventure Game 🗺️  
 
 ## 🟡 Intermediate (GUI, Databases, APIs)  
+- [ ] Pomodoro Timer ⏳  
+- [ ] Currency Converter using API 💱  
+- [ ] Contact Management System 📇  
+- [ ] Recipe Manager 🍲  
+- [ ] Expense Tracker with Charts 📊  
 - [ ] Tkinter To-Do App 🖥️  
 - [ ] SQLite To-Do App 🗄️  
 - [ ] Priority-Based To-Do List (High, Medium, Low) ⚡  
@@ -32,6 +42,11 @@
 - [ ] Password Manager 🔐  
 
 ## 🔴 Advanced (Web, Cloud, AI, Integration)  
+- [ ] Real-Time Chat Application with WebSockets 💬  
+- [ ] Sentiment Analysis Tool using NLP 🧠  
+- [ ] Real-Time Collaboration Tool (e.g., Google Docs clone) 📝  
+- [ ] Fitness Tracker with Wearable Integration 🏋️‍♂️  
+- [ ] Smart Home Automation System 🏠  
 - [ ] Django/Flask Web To-Do App 🌐  
 - [ ] To-Do List with Speech Recognition 🎤  
 - [ ] AI-Powered To-Do List 🤖  
@@ -51,6 +66,10 @@
 - [ ] Social Media Bot 🤖  
 
 ## 🚀 Launcher & Main Program Ideas  
+- [ ] Plugin-Based Application Framework 🔌  
+- [ ] Customizable Dashboard 📊  
+- [ ] Automated Backup System 💾  
+- [ ] System Monitor (CPU, Memory, Disk Usage) 📈  
 - [ ] Project Launcher 🚀  
 - [ ] Project Manager 🗂️  
 - [ ] Task Runner ⌨️  
@@ -58,6 +77,10 @@
 - [ ] Code Snippet Manager 📋  
 
 ## 🌐 Collaboration Ideas  
+- [ ] Collaborative Code Editor 🖥️  
+- [ ] Real-Time Voting/Polling App 🗳️  
+- [ ] Shared Task Management System 🗂️  
+- [ ] Online Study Group Platform 📚  
 - [ ] Open-Source To-Do List (GitHub Issues) 📝  
 - [ ] Real-Time Chat App 💬  
 - [ ] Collaborative Whiteboard 🎨  
