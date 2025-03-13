@@ -1,64 +1,59 @@
 import json
 import os
+import time
 from datetime import datetime
 
-EXPENSES_FILE = "expenses.json"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+EXPENSES_FILE = os.path.join(BASE_DIR, "expenses.json")
 
-def load_expenses():
-    if os.path.exists(EXPENSES_FILE):
-        with open(EXPENSES_FILE, "r") as file:
-            return json.load(file)
-    return []
+class ExpenseTracker:
+    def __init__(self, filename=EXPENSES_FILE):
+        self.filename = filename
+        self.expenses = self.load_expenses()
 
-def save_expenses(expenses):
-    with open(EXPENSES_FILE, "w") as file:
-        json.dump(expenses, file, indent=4)
+    def load_expenses(self):
+        if os.path.exists(self.filename):
+            with open(self.filename, "r") as file:
+                return json.load(file)
+        return []
 
-def add_expense(name, price, date=None):
-    new_expense = {
-        "id": len(expenses) + 1,
-        "name": name,
-        "price": float(price),
-        "date": date
-    }
-    expenses.append(new_expense)
-    save_expenses(expenses)
-    print(f"\nExpense added: {name}.")
+    def save_expenses(self):
+        with open(self.filename, "w") as file:
+            json.dump(self.expenses, file, indent=4)
 
-def show_expenses():
-    if not expenses:
-        print("\nNo expenses found.")
-    else:
-        print("\n--- Your Expenses ---")
-        for expense in expenses:
-            print(f"{expense['id']}. {expense['name']} - ${expense['price']} (Date: {expense['date']})")
-        print("--------------------")
+    def add_expense(self, name, price, date=None):
+        expense = {
+            "id": len(self.expenses) + 1,
+            "name": name,
+            "price": float(price),
+            "date": date
+        }
+        self.expenses.append(expense)
+        self.save_expenses()
+        print(f"Expense added: {name}.")
 
-def remove_expense(product_id):
-    global expenses
-    expense_found = False
-    for expense in expenses:
-        if expense["id"] == product_id:
-            expenses.remove(expense)
-            save_expenses(expenses)
-            print(f"\nExpense {product_id} removed.")
-            expense_found = True
-            break
-    if not expense_found:
-        print(f"\nExpense with ID {product_id} not found.")
+    def show_expenses(self):
+        if not self.expenses:
+            print("No expenses found.")
+        else:
+            print("--- Your Expenses ---")
+            for expense in self.expenses:
+                print(f"{expense['id']}. {expense['name']} - ${expense['price']} (Date: {expense['date']})")
+            print("---------------------")
+
+    def remove_expense(self, expense_id):
+        for expense in self.expenses:
+            if expense["id"] == expense_id:
+                self.expenses.remove(expense)
+                self.save_expenses()
+                print(f"Expense {expense_id} removed.")
+                return
+        print(f"Expense with ID {expense_id} not found.")
 
 def clear_screen():
-    """Clears the terminal screen."""
-    os.system('cls' if os.name == 'nt' else 'clear')
+    os.system("cls" if os.name == "nt" else "clear")
 
 def validate_date(date_str):
-    """
-    Validates if the date is in the correct format (DD-MM-YYYY).
-    Args:
-        date_str (str): The date string to validate.
-    Returns:
-        str: The validated date string, or None if invalid.
-    """
     try:
         datetime.strptime(date_str, "%d-%m-%Y")
         return date_str
@@ -66,53 +61,51 @@ def validate_date(date_str):
         return None
 
 def main():
-    global expenses
-    expenses = load_expenses()
-
+    tracker = ExpenseTracker()
     while True:
-        clear_screen()  # Clear the terminal screen
-        print("\n--- Expenses Tracker ---")
+        clear_screen()
+        print("--- Expenses Tracker ---")
         print("1. Show expenses")
         print("2. Add expense")
         print("3. Remove expense")
         print("4. Exit")
-
-        choice = input("\nChoose an option: ")
+        choice = input("Choose an option: ")
 
         if choice == "1":
-            show_expenses()
-            input("\nPress Enter to continue...")  # Pause before clearing the screen
+            clear_screen()
+            tracker.show_expenses()
+            time.sleep(2)
         elif choice == "2":
-            name = input("Enter the name of the product: ")
+            clear_screen()
+            name = input("Product name: ")
             while True:
-                price = input("Enter the price of the product: ")
+                price = input("Price: ")
                 try:
-                    float(price)  # Validate if the price is a valid number
+                    float(price)
                     break
                 except ValueError:
-                    print("Invalid price. Please enter a valid number.")
-            date = input("Enter the date of the purchase (DD-MM-YYYY, optional): ") or None
-            if date:
-                validated_date = validate_date(date)
-                if not validated_date:
-                    print("Invalid date format. Date will be ignored.")
-                    date = None
-            add_expense(name, price, date)
-            input("\nPress Enter to continue...")  # Pause before clearing the screen
+                    print("Invalid price. Enter a valid number.")
+            date = input("Purchase date (DD-MM-YYYY, optional): ") or None
+            if date and not validate_date(date):
+                print("Invalid date format. Date will be ignored.")
+                date = None
+            tracker.add_expense(name, price, date)
+            time.sleep(2)
         elif choice == "3":
-            show_expenses()  # Show the list of expenses before asking for the ID
+            clear_screen()
+            tracker.show_expenses()
             try:
-                product_id = int(input("\nEnter the ID of the product to remove: "))
-                remove_expense(product_id)
+                expense_id = int(input("Expense ID to remove: "))
+                tracker.remove_expense(expense_id)
             except ValueError:
-                print("\nInvalid input. Please enter a valid number.")
-            input("\nPress Enter to continue...")  # Pause before clearing the screen
+                print("Invalid input. Please enter a valid number.")
+            time.sleep(2)
         elif choice == "4":
-            print("\nExiting the program. Goodbye!")
+            print("Exiting program. Goodbye!")
             break
         else:
-            print("\nInvalid choice. Please try again.")
-            input("\nPress Enter to continue...")  # Pause before clearing the screen
+            print("Invalid choice. Try again.")
+            time.sleep(2)
 
 if __name__ == "__main__":
     main()
