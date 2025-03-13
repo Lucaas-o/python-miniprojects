@@ -7,13 +7,13 @@
 - [x] Unit Converter 📏  
 - [x] Basic CLI To-Do List 📝  
 - [x] Expense Tracker 💰  
-- [x] Simple Calculator 🧮  
+- [x] Simple Calculator 🧮 
+- [x] Countdown Timer ⏲️  
+- [x] Persistent To-Do List (Save/Load to `.txt`) 💾  
 - [ ] Random Task Picker 🎲  
 - [ ] Hangman Game 🎮  
 - [ ] Tic-Tac-Toe Game ❌⭕  
 - [ ] Basic Quiz Game ❓  
-- [x] Countdown Timer ⏲️  
-- [x] Persistent To-Do List (Save/Load to `.txt`) 💾  
 - [ ] Categorized To-Do List (Work, Personal, etc.) 🗂️  
 - [ ] Deadline-Based To-Do List 📅  
 - [ ] Command-Based To-Do List (`/add`, `/remove`, `/list`) ⌨️  
