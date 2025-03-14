@@ -15,7 +15,7 @@ By participating in this project, you agree to follow the rules outlined in our 
 To keep track of dependencies used in this project, we use a `requirements.txt` file. To install the dependencies, run the following command:
 
 ```sh
-pip install -r [requirements.txt](http://_vscodecontentref_/2)
+pip install -r requirements.txt
 ```
 
 ## 📜 License  
