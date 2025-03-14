@@ -9,8 +9,10 @@ Thank you for your interest in contributing to **Python Mini-Projects**! We welc
 
 2. **Clone Your Fork**:  
    Run the following command in your terminal:  
+   ```sh
    git clone https://github.com/Lucaas-o/python-miniprojects.git  
-   cd python-miniprojects  
+   cd python-miniprojects
+   ```
 
 3. **Set Up the Project**:  
    - Ensure you have Python installed (preferably Python 3.8+).  
@@ -71,4 +73,4 @@ Please read our [Code of Conduct](CODE_OF_CONDUCT.md) to understand the expected
 ---
 
 ## 🙏 Thank You!  
-Your contributions help make this project better for everyone. We appreciate your time and effort!  
+Your contributions help make this project better for everyone. We appreciate your time and effort!

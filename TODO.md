@@ -24,36 +24,36 @@
 - [x] Simple Calculator 🧮  
 - [x] Countdown Timer ⏲️  
 - [x] Persistent To-Do List (Save/Load to `.txt`) 💾  
+- [x] Basic Quiz Game ❓ (#14) - Milestone 1 
 - [ ] Random Task Picker 🎲 (#7) - Milestone 1  
 - [ ] Hangman Game 🎮 (#13) - Milestone 1  
-- [ ] Tic-Tac-Toe Game ❌⭕ (#12) - Milestone 1  
-- [ ] Basic Quiz Game ❓ (#14) - Milestone 1  
+- [ ] Tic-Tac-Toe Game ❌⭕ (#12) - Milestone 1   
 - [ ] Categorized To-Do List (Work, Personal, etc.) 🗂️ (#4) - Milestone 1  
 - [ ] Deadline-Based To-Do List 📅 (#5) - Milestone 1  
 - [ ] Command-Based To-Do List (`/add`, `/remove`, `/list`) ⌨️ (#6) - Milestone 1  
 - [ ] Simple Text-Based Adventure Game 🗺️ (#15) - Milestone 1  
 
 ## 🟡 Intermediate (GUI, Databases, APIs)  
-- [ ] Pomodoro Timer ⏳ (#16) - Milestone 2  
-- [ ] Currency Converter using API 💱 (#17) - Milestone 2  
-- [ ] Contact Management System 📇 (#18) - Milestone 2  
-- [ ] Recipe Manager 🍲 (#19) - Milestone 2  
-- [ ] Expense Tracker with Charts 📊 (#20) - Milestone 2  
-- [ ] Tkinter To-Do App 🖥️ (#8) - Milestone 2  
-- [ ] SQLite To-Do App 🗄️ (#9) - Milestone 2  
-- [ ] Priority-Based To-Do List (High, Medium, Low) ⚡ (#10) - Milestone 2  
-- [ ] Recurring Tasks 🔄 (#21) - Milestone 2  
-- [ ] Daily Planner 🗓️ (#22) - Milestone 2  
-- [ ] Drag-and-Drop To-Do List (Tkinter/PyQt) 🖱️ (#23) - Milestone 2  
-- [ ] Flask API To-Do List 🌐 (#24) - Milestone 2  
-- [ ] Markdown To-Do List (Save tasks in `.md`) 📄 (#25) - Milestone 2  
-- [ ] Notification-Based To-Do App 🔔 (#26) - Milestone 2  
-- [ ] Weather App using API 🌦️ (#27) - Milestone 2  
-- [ ] URL Shortener 🔗 (#28) - Milestone 2  
-- [ ] Quiz App ❓ (#29) - Milestone 2  
-- [ ] File Organizer 🗂️ (#30) - Milestone 2  
-- [ ] Web Scraper 🕸️ (#31) - Milestone 2  
-- [ ] Password Manager 🔐 (#32) - Milestone 2  
+- [x] Recipe Manager 🍲 (#19) - Milestone 2
+- [ ] Pomodoro Timer ⏳ (#16) - Milestone 2
+- [ ] Currency Converter using API 💱 (#17) - Milestone 2
+- [ ] Contact Management System 📇 (#18) - Milestone 2
+- [ ] Expense Tracker with Charts 📊 (#20) - Milestone 2
+- [ ] Tkinter To-Do App 🖥️ (#8) - Milestone 2
+- [ ] SQLite To-Do App 🗄️ (#9) - Milestone 2
+- [ ] Priority-Based To-Do List (High, Medium, Low) ⚡ (#10) - Milestone 2
+- [ ] Recurring Tasks 🔄 (#21) - Milestone 2
+- [ ] Daily Planner 🗓️ (#22) - Milestone 2
+- [ ] Drag-and-Drop To-Do List (Tkinter/PyQt) 🖱️ (#23) - Milestone 2
+- [ ] Flask API To-Do List 🌐 (#24) - Milestone 2
+- [ ] Markdown To-Do List (Save tasks in `.md`) 📄 (#25) - Milestone 2
+- [ ] Notification-Based To-Do App 🔔 (#26) - Milestone 2
+- [ ] Weather App using API 🌦️ (#27) - Milestone 2
+- [ ] URL Shortener 🔗 (#28) - Milestone 2
+- [ ] Quiz App ❓ (#29) - Milestone 2
+- [ ] File Organizer 🗂️ (#30) - Milestone 2
+- [ ] Web Scraper 🕸️ (#31) - Milestone 2
+- [ ] Password Manager 🔐 (#32) - Milestone 2
 
 ## 🔴 Advanced (Web, Cloud, AI, Integration)  
 - [ ] Real-Time Chat Application with WebSockets 💬 (#33) - Milestone 3  
