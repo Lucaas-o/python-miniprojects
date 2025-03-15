@@ -15,23 +15,23 @@
   Create real-time collaborative tools and multi-user systems to foster teamwork and community engagement.
 
 ## 🟢 Beginner (Basic Features, Console-Based)  
-- [x] Number Guessing Game 🎲  
-- [x] Rock-Paper-Scissors Game ✂️  
-- [x] Password Generator 🔐  
-- [x] Unit Converter 📏  
-- [x] Basic CLI To-Do List 📝  
-- [x] Expense Tracker 💰  
-- [x] Simple Calculator 🧮  
-- [x] Countdown Timer ⏲️  
-- [x] Persistent To-Do List (Save/Load to `.txt`) 💾  
-- [x] Basic Quiz Game ❓ (#14) - Milestone 1 
-- [ ] Random Task Picker 🎲 (#7) - Milestone 1  
-- [ ] Hangman Game 🎮 (#13) - Milestone 1  
-- [ ] Tic-Tac-Toe Game ❌⭕ (#12) - Milestone 1   
-- [ ] Categorized To-Do List (Work, Personal, etc.) 🗂️ (#4) - Milestone 1  
-- [ ] Deadline-Based To-Do List 📅 (#5) - Milestone 1  
-- [ ] Command-Based To-Do List (`/add`, `/remove`, `/list`) ⌨️ (#6) - Milestone 1  
-- [ ] Simple Text-Based Adventure Game 🗺️ (#15) - Milestone 1  
+- [x] Number Guessing Game 🎲
+- [x] Rock-Paper-Scissors Game ✂️
+- [x] Password Generator 🔐
+- [x] Unit Converter 📏
+- [x] Basic CLI To-Do List 📝
+- [x] Expense Tracker 💰
+- [x] Simple Calculator 🧮
+- [x] Countdown Timer ⏲️
+- [x] Persistent To-Do List (Save/Load to `.txt`) 💾
+- [x] Basic Quiz Game ❓ (#14) - Milestone 1
+- [x] Hangman Game 🎮 (#13) - Milestone 1
+- [x] Simple Text-Based Adventure Game 🗺️ (#15) - Milestone 1
+- [x] Command-Based To-Do List (`/add`, `/remove`, `/list`) ⌨️ (#6) - Milestone 1
+- [ ] Random Task Picker 🎲 (#7) - Milestone 1
+- [ ] Tic-Tac-Toe Game ❌⭕ (#12) - Milestone 1
+- [ ] Categorized To-Do List (Work, Personal, etc.) 🗂️ (#4) - Milestone 1
+- [ ] Deadline-Based To-Do List 📅 (#5) - Milestone 1
 
 ## 🟡 Intermediate (GUI, Databases, APIs)  
 - [x] Recipe Manager 🍲 (#19) - Milestone 2
