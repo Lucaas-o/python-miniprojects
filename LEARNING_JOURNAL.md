@@ -36,9 +36,9 @@ This journal tracks my progress through the Python learning program, from March 
 **Goal**: Learn Python fundamentals (variables, loops, conditionals, functions, file I/O).
 
 ### Resources Completed
-- **Video Course**: [ ] "Python for Beginners - Learn Python Programming in 100 Steps" (Udemy) or "Python Tutorial for Beginners" by Programming with Mosh (YouTube)  
-  - Date Completed: [TBD]  
-  - Notes: [e.g., "Really liked how Mosh explained loops."]
+- **Video Course**: [x] "Python for Beginners - Learn Python Programming in 100 Steps" (Udemy) or "Python Tutorial for Beginners" by Programming with Mosh (YouTube)  
+  - Date Completed: [15/03/2025]  
+  - Notes: "It was easy to understand and explained a lot of things. I already knew most of them."
 - **Interactive Tutorial**: [ ] "Learn Python" on Codecademy  
   - Date Completed: [TBD]  
   - Notes: [e.g., "Struggled with list comprehensions but got it after practice."]
