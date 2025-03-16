@@ -12,7 +12,7 @@ This journal tracks my Python journey from **March 13, 2025, to March 13, 2028**
 
 #### Completed
 - [x] "Python Tutorial for Beginners" by Programming with Mosh (YouTube) - 6h  
-  - Done: [TBD]  
+  - Done: [15-03-2025]  
   - Note: "Quick refresher; I knew most of it already."
 - [ ] "Learn Python" on Codecademy (Free tier) - 10h  
   - Done: [TBD]  
