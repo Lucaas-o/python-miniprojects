@@ -1,44 +1,31 @@
-# 🐍 Python Mini-Projects  
+# 🐍 Python Mini-Projects
 
-A collection of small Python projects for learning and practice.  
+A collection of small Python projects for learning and practice as I work toward mastering Python.
 
-## 📈 Project Stats  
+## 🌟 Overview
 
-| Level            | Total Projects | Completed | Remaining | Progress  |
-|-----------------|---------------|-----------|-----------|-----------|
-| 🟢 Beginner     | 12            | 11        | 1         | 91.7%     |
-| 🟡 Intermediate | 20            | 1         | 19        | 5%        |
-| 🔴 Advanced     | 40            | 0         | 40        | 0%        |
-| **Total**       | **72**        | **12**    | **60**    | **16.7%** |
+This repo showcases my journey through Python, from beginner scripts to advanced applications. Check out my full learning plan and detailed progress in [LEARNING_PROGRAM.md](LEARNING_PROGRAM.md).
 
-## 📝 Future Projects  
-For a list of planned features and future projects, check out [TODO.md](TODO.md).  
+### Quick Stats
+- **Total Projects**: 72
+- **Completed**: 12 (16.7%)
+- **Current Milestone**: 🟢 Milestone 1 (91.7% done)
 
-## 📅 Milestone Progress  
+## 📝 Future Projects
+See planned features and projects in [TODO.md](TODO.md).
 
-| Milestone  | Due Date     | Progress  |
-|------------|------------|-----------|
-| 🟢 **Milestone 1** | Nov 30, 2025 | **91.7%**  |
-| 🟡 **Milestone 2** | Nov 30, 2026 | **5%**     |
-| 🟡 **Milestone 3** | Feb 28, 2028 | **0%**     |
-| 🔴 **Milestone 4** | Aug 31, 2029 | **0%**     |
-| 🚀 **Milestone 5** | Oct 31, 2028 | **0%**     |
-| 🌐 **Milestone 6** | Dec 31, 2028 | **0%**     |
+## 🤝 Contributing
+Contributions are welcome! Please read the [Contributing Guide](CONTRIBUTING.md) for details.
 
+## 📚 Code of Conduct
+Participants agree to follow the rules in our [Code of Conduct](CODE_OF_CONDUCT.md).
 
-## 🤝 Contributing  
-Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details.  
-
-## 📚 Code of Conduct  
-By participating in this project, you agree to follow the rules outlined in our [Code of Conduct](CODE_OF_CONDUCT.md).  
-
-## 🛋️ Dependencies  
-To keep track of dependencies used in this project, we use a `requirements.txt` file. To install the dependencies, run the following command:
+## 🛠️ Dependencies
+Track project dependencies in `requirements.txt`. Install them with:
 
 ```sh
 pip install -r requirements.txt
-```
+``` 
 
-## 📚 License  
+## 📜 License  
 This project is licensed under the **MIT License**.
-
