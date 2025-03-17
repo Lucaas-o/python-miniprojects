@@ -10,6 +10,7 @@ This repo showcases my journey through Python, from beginner scripts to advanced
 - **Total Projects**: 72
 - **Completed**: 12 (16.7%)
 - **Current Milestone**: 🟢 Milestone 1 (91.7% done)
+- **Next Milestone**: 🟡 Milestone 2 (5% done)
 
 ## 📝 Future Projects
 See planned features and projects in [TODO.md](TODO.md).
